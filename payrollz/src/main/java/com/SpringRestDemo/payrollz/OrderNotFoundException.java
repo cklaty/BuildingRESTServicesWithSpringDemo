@@ -1,8 +1,8 @@
 package com.SpringRestDemo.payrollz;
 
-class EmployeeNotFoundException extends RuntimeException
+class OrderNotFoundException extends RuntimeException
 {
-    EmployeeNotFoundException(Long id)
+    OrderNotFoundException(Long id)
     {
         super("Could not find employee " + id);
     }
